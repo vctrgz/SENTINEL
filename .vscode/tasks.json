@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Sentinel SIEM: Setup Entorno",
+            "type": "process",
+            "command": "python",
+            "windows": {
+                "command": "py",
+                "args": [
+                    "-3",
+                    "${workspaceFolder}/Sentinel/setup_env.py"
+                ]
+            },
+            "linux": {
+                "command": "python3"
+            },
+            "osx": {
+                "command": "python3"
+            },
+            "args": [
+                "${workspaceFolder}/Sentinel/setup_env.py"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/Sentinel"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

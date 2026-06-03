@@ -1,0 +1,900 @@
+2026-06-03 18:12:05 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:12:05 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:12:05 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:12:05 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:12:05 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:12:05 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:12:45 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:12:45 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:12:45 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:12:45 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:12:45 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:12:45 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:12:48 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:12:48 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:12:48 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:12:48 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:12:48 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:12:48 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:12:50 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:12:50 | WARNING  | SentinelAI | [Config] OPENROUTER_API_KEY no configurado - OpenRouter deshabilitado. Obten uno en: https://openrouter.ai/keys
+2026-06-03 18:12:50 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:12:50 | WARNING  | SentinelAI | [Config] GROQ_API_KEY no configurado - Groq deshabilitado. Obten uno en: https://console.groq.com/keys
+2026-06-03 18:12:50 | WARNING  | SentinelAI | [Config] Ningun proveedor LLM configurado. El sistema no podra generar respuestas.
+2026-06-03 18:12:50 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:12:50 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:12:50 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:12:50 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:12:50 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:12:50 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:12:50 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:12:50 | WARNING  | SentinelAI | [Server] No LLM providers configured. Set OPENAI_API_KEY and/or OPENROUTER_API_KEY and/or HF_API_TOKEN and/or GROQ_API_KEY in .env
+2026-06-03 18:13:14 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:13:14 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:13:14 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:13:14 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:13:14 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:13:14 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:13:16 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:13:16 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:13:16 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:13:16 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:13:16 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:13:16 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:13:17 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:13:17 | WARNING  | SentinelAI | [Config] OPENROUTER_API_KEY no configurado - OpenRouter deshabilitado. Obten uno en: https://openrouter.ai/keys
+2026-06-03 18:13:17 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:13:17 | WARNING  | SentinelAI | [Config] GROQ_API_KEY no configurado - Groq deshabilitado. Obten uno en: https://console.groq.com/keys
+2026-06-03 18:13:17 | WARNING  | SentinelAI | [Config] Ningun proveedor LLM configurado. El sistema no podra generar respuestas.
+2026-06-03 18:13:17 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:13:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:13:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:13:17 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:13:17 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:13:17 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:13:17 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:13:17 | WARNING  | SentinelAI | [Server] No LLM providers configured. Set OPENAI_API_KEY and/or OPENROUTER_API_KEY and/or HF_API_TOKEN and/or GROQ_API_KEY in .env
+2026-06-03 18:13:22 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:13:22 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:13:22 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:13:22 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:13:22 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:13:22 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:13:22 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:14:15 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:14:15 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:14:15 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:14:15 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:14:15 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:14:15 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:14:18 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:14:18 | WARNING  | SentinelAI | [Config] OPENROUTER_API_KEY no configurado - OpenRouter deshabilitado. Obten uno en: https://openrouter.ai/keys
+2026-06-03 18:14:18 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:14:18 | WARNING  | SentinelAI | [Config] GROQ_API_KEY no configurado - Groq deshabilitado. Obten uno en: https://console.groq.com/keys
+2026-06-03 18:14:18 | WARNING  | SentinelAI | [Config] Ningun proveedor LLM configurado. El sistema no podra generar respuestas.
+2026-06-03 18:14:18 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:14:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:14:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:14:18 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:14:18 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:14:18 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:14:18 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:14:18 | WARNING  | SentinelAI | [Server] No LLM providers configured. Set OPENAI_API_KEY and/or OPENROUTER_API_KEY and/or HF_API_TOKEN and/or GROQ_API_KEY in .env
+2026-06-03 18:14:20 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:14:20 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:14:20 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:14:20 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:14:20 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:14:20 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:14:20 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:15:51 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:15:51 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:15:51 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:15:51 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:15:51 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:15:51 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:15:54 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:15:54 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:15:54 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:15:54 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:15:54 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:15:54 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:15:54 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:15:54 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:15:54 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:15:54 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:15:55 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:15:55 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:15:55 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:15:55 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:15:55 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:15:55 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:15:55 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:16:46 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:16:46 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:16:46 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:16:46 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:16:46 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:16:46 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:16:49 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:16:49 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:16:49 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:16:49 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:16:49 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:16:49 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:16:49 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:16:49 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:16:49 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:16:49 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:16:50 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:16:50 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:16:50 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:16:50 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:16:50 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:16:50 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:16:50 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:17:42 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:17:42 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:17:42 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:17:42 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:17:42 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:17:42 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:17:45 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:17:45 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:17:45 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:17:45 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:17:45 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:17:45 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:17:45 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:17:45 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:17:45 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:17:45 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:17:46 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:17:46 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:17:46 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:17:46 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:17:46 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:17:46 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:17:46 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:17:50 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:17:50 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:17:50 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:17:50 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:17:50 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:17:50 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:17:50 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:19:08 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:19:08 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:19:08 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:19:08 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:19:08 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:19:08 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:19:11 | WARNING  | SentinelAI | [Config] WAZUH_HOST no configurado - integracion Wazuh deshabilitada.
+2026-06-03 18:19:11 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:19:11 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:19:11 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:19:11 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:19:11 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:19:11 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:19:11 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:19:11 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:19:11 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:19:11 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:19:11 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:19:11 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:19:11 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:19:11 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:19:11 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:19:11 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:19:11 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:19:59 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:19:59 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:19:59 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:19:59 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:19:59 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:19:59 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:19:59 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:20:15 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:20:15 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:20:15 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:20:15 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:20:15 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:20:15 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:20:15 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:20:46 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:20:46 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:20:46 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:20:46 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:20:46 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:20:46 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:20:47 | WARNING  | SentinelAI | [Config] WAZUH_HOST no configurado - integracion Wazuh deshabilitada.
+2026-06-03 18:20:47 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:20:47 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:20:47 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:20:47 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:20:47 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:20:47 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:20:47 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:20:47 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:20:47 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:20:47 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:20:55 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:20:55 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:20:55 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:20:55 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:20:55 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:20:55 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:20:55 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:21:30 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:21:30 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:21:30 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:21:30 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:21:30 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:21:30 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:21:30 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:21:49 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:21:49 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:21:49 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:21:49 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:21:49 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:21:49 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:21:50 | WARNING  | SentinelAI | [Config] WAZUH_HOST no configurado - integracion Wazuh deshabilitada.
+2026-06-03 18:21:50 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:21:50 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:21:50 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:21:50 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:21:50 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:21:50 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:21:50 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:21:50 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:21:50 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:21:50 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:22:00 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:22:00 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:22:00 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:22:00 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:00 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:00 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:00 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [Server] /chat -> responde solo: ok
+2026-06-03 18:22:10 | INFO     | SentinelAI | [Server] Inicializando Orchestrator...
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:22:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:22:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:22:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:22:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:22:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:22:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:22:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:22:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:22:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:22:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:22:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:22:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:22:10 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:22:16 | WARNING  | SentinelAI | [DAGExecutor] El plan no contiene tareas.
+2026-06-03 18:23:05 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:23:05 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:23:05 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:23:05 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:23:05 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:23:05 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:23:07 | WARNING  | SentinelAI | [Config] WAZUH_HOST no configurado - integracion Wazuh deshabilitada.
+2026-06-03 18:23:07 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:23:07 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:23:07 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:23:07 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:23:07 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:23:07 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:07 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:07 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:07 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:23:07 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:23:16 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:23:16 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:23:16 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:23:16 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:16 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:16 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:16 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:23:25 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:23:25 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:23:25 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:23:25 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:25 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:25 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:25 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:23:32 | INFO     | SentinelAI | [Server] /chat -> responde en una frase corta que estas operativo
+2026-06-03 18:23:32 | INFO     | SentinelAI | [Server] Inicializando Orchestrator...
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:23:32 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:23:32 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:23:32 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:23:32 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:23:32 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:23:32 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:23:32 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:23:32 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:23:32 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:23:32 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:23:32 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:23:32 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:32 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:23:33 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:23:33 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:23:33 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:23:33 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:33 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:33 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:33 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:23:33 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:23:33 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:23:33 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:23:33 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:33 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:33 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:23:33 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:23:40 | WARNING  | SentinelAI | [DAGExecutor] El plan no contiene tareas.
+2026-06-03 18:25:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:25:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:25:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:25:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:25:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:25:10 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:25:13 | WARNING  | SentinelAI | [Config] WAZUH_HOST no configurado - integracion Wazuh deshabilitada.
+2026-06-03 18:25:13 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:25:13 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:25:13 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:25:13 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:25:13 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:25:13 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:25:13 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:25:13 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:25:13 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:25:13 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:25:14 | WARNING  | SentinelAI | [LLMClient] provider=openrouter/meta-llama/llama-3.3-70b-instruct OPENROUTER_API_KEY not set or empty
+2026-06-03 18:25:14 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:25:14 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:25:14 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.1-8b-instant GROQ_API_KEY not set or empty
+2026-06-03 18:25:14 | WARNING  | SentinelAI | [LLMClient] provider=groq/llama-3.3-70b-versatile GROQ_API_KEY not set or empty
+2026-06-03 18:25:14 | WARNING  | SentinelAI | [LLMClient] provider=groq/groq/compound GROQ_API_KEY not set or empty
+2026-06-03 18:25:14 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:25:14 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:25:14 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:25:14 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:25:14 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:25:14 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:25:14 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:25:14 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:25:24 | INFO     | SentinelAI | [Server] /chat -> que dia es hoy
+2026-06-03 18:25:50 | INFO     | SentinelAI | [Server] /chat -> quien es el rey de españa
+2026-06-03 18:26:01 | INFO     | SentinelAI | [DAGExecutor] Secuencial: 1
+2026-06-03 18:26:04 | INFO     | SentinelAI | [DAGExecutor] Secuencial: 2
+2026-06-03 18:26:46 | INFO     | SentinelAI | [Server] /chat -> cuales son las buenas practicas para no recibir un ataque de ciberseguridad
+2026-06-03 18:27:41 | INFO     | SentinelAI | [DAGExecutor] Paralela degradada a secuencial: 1
+2026-06-03 18:28:45 | WARNING  | SentinelAI | [ShellExecutor] Timeout: comando supero 60s: winget upgrade --all
+2026-06-03 18:28:45 | INFO     | SentinelAI | [DAGExecutor] Paralela degradada a secuencial: 2
+2026-06-03 18:28:50 | INFO     | SentinelAI | [DAGExecutor] Paralela degradada a secuencial: 3
+2026-06-03 18:28:55 | INFO     | SentinelAI | [DAGExecutor] Paralela degradada a secuencial: 4
+2026-06-03 18:28:58 | INFO     | SentinelAI | [DAGExecutor] Paralela degradada a secuencial: 5
+2026-06-03 18:29:00 | INFO     | SentinelAI | [DAGExecutor] Paralela degradada a secuencial: 6
+2026-06-03 18:29:04 | INFO     | SentinelAI | [DAGExecutor] Paralela degradada a secuencial: 7
+2026-06-03 18:29:09 | INFO     | SentinelAI | [DAGExecutor] Paralela degradada a secuencial: 8
+2026-06-03 18:29:12 | INFO     | SentinelAI | [DAGExecutor] Paralela degradada a secuencial: 9
+2026-06-03 18:32:14 | WARNING  | SentinelAI | [ShellExecutor] Timeout: comando supero 60s: powershell -Command "Get-ChildItem -Path C:\ -Filter *.txt -Recurse -Force"
+2026-06-03 18:32:14 | INFO     | SentinelAI | [DAGExecutor] Paralela degradada a secuencial: 10
+2026-06-03 18:33:18 | WARNING  | SentinelAI | [ShellExecutor] Timeout: comando supero 60s: nmap -sV -sC -O -T4 --open 192.168.1.0/24
+2026-06-03 18:34:16 | INFO     | SentinelAI | [DAGExecutor] Paralela degradada a secuencial: 1
+2026-06-03 18:34:34 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:34:34 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:34:34 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:34:34 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:34:34 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:34:34 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:34:34 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:34:52 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:34:52 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:34:52 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:34:52 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:34:52 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:34:52 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:34:52 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:35:15 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:35:15 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:35:15 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:35:15 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:35:15 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:35:15 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:35:16 | WARNING  | SentinelAI | [Config] WAZUH_HOST no configurado - integracion Wazuh deshabilitada.
+2026-06-03 18:35:16 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:35:16 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:35:16 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:35:16 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:35:16 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:35:16 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:16 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:16 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:16 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:35:16 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:35:23 | INFO     | SentinelAI | [Server] /chat -> cuales son las buenas practicas para evitar un ataque de ciberseguridad
+2026-06-03 18:35:23 | INFO     | SentinelAI | [Server] Inicializando Orchestrator...
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:35:23 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:35:23 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:35:23 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:35:23 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:35:23 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:35:23 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:35:23 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:35:23 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:35:23 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:35:23 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:35:23 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:35:23 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:35:23 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:36:06 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:36:06 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:36:06 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:36:06 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:36:06 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:36:06 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:36:07 | WARNING  | SentinelAI | [Config] WAZUH_HOST no configurado - integracion Wazuh deshabilitada.
+2026-06-03 18:36:07 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:36:07 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:36:07 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:36:07 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:36:07 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:36:07 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:07 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:07 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:07 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:36:07 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:36:17 | INFO     | SentinelAI | [Server] /chat -> cuales son las buenas practicas para evitar un ataque de ciberseguridad
+2026-06-03 18:36:17 | INFO     | SentinelAI | [Server] Inicializando Orchestrator...
+2026-06-03 18:36:17 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:36:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:36:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:36:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:17 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:36:17 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:36:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:36:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:36:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:17 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:36:17 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:36:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:36:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:36:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:17 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:36:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:36:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:36:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:36:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:36:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:36:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:36:18 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:36:18 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:36:18 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:36:18 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:36:18 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:36:18 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:36:18 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:36:29 | INFO     | SentinelAI | [Server] /chat -> quien es el rey de espana
+2026-06-03 18:36:33 | INFO     | SentinelAI | [Server] /chat -> cual es la convocatoria de espana para el mundial 2026
+2026-06-03 18:37:07 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:37:07 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:37:07 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:37:07 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:37:07 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:37:07 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:37:08 | WARNING  | SentinelAI | [Config] WAZUH_HOST no configurado - integracion Wazuh deshabilitada.
+2026-06-03 18:37:08 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:37:08 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:37:08 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:37:08 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:37:08 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:37:08 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:08 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:08 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:08 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:37:08 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:37:16 | INFO     | SentinelAI | [Server] /chat -> cuales son las buenas practicas para evitar un ataque de ciberseguridad
+2026-06-03 18:37:16 | INFO     | SentinelAI | [Server] Inicializando Orchestrator...
+2026-06-03 18:37:16 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:37:16 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:37:16 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:37:16 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:16 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:16 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:16 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:37:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:37:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:37:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:37:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:37:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:37:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:37:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:37:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:37:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:37:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:37:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:37:17 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:17 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:37:56 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:37:56 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:37:56 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:37:56 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:37:56 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:37:56 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:37:59 | WARNING  | SentinelAI | [Config] WAZUH_HOST no configurado - integracion Wazuh deshabilitada.
+2026-06-03 18:37:59 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:37:59 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:37:59 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:37:59 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:37:59 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:37:59 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:59 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:59 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:37:59 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:37:59 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:38:01 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:38:01 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:38:01 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:38:01 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:38:01 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:38:01 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:38:01 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:38:27 | INFO     | SentinelAI | [Server] /chat -> cuando empezo la guerra entre Rusia y Ucrania
+2026-06-03 18:38:39 | INFO     | SentinelAI | [DAGExecutor] Secuencial: 1
+2026-06-03 18:38:43 | INFO     | SentinelAI | [DAGExecutor] Secuencial: 2
+2026-06-03 18:38:48 | INFO     | SentinelAI | [DAGExecutor] Secuencial: 3
+2026-06-03 18:39:27 | INFO     | SentinelAI | [DAGExecutor] Paralela degradada a secuencial: 1
+2026-06-03 18:39:30 | INFO     | SentinelAI | [DAGExecutor] Secuencial: 2
+2026-06-03 18:39:32 | INFO     | SentinelAI | [DAGExecutor] Secuencial: 3
+2026-06-03 18:40:50 | INFO     | SentinelAI | [Server] /chat -> cuales son las buenas practicas para evitar un ataque de ciberseguridad
+2026-06-03 18:42:15 | INFO     | SentinelAI | [Server] /chat -> cual es mi ip, quiero que lo mires
+2026-06-03 18:42:41 | INFO     | SentinelAI | [Server] /chat -> escanea la red a la que estoy conectado
+2026-06-03 18:43:48 | WARNING  | SentinelAI | [ShellExecutor] Timeout: comando supero 60s: nmap -sV -sC -O -T4 --open 192.168.1.1
+2026-06-03 18:46:21 | WARNING  | SentinelAI | [ShellExecutor] Timeout: comando supero 60s: nmap -sV -sC -O -T4 --open 192.168.1.20
+2026-06-03 18:47:35 | WARNING  | SentinelAI | [ShellExecutor] Timeout: comando supero 60s: nmap -sV -sC -O -T4 --open 192.168.200.1
+2026-06-03 18:49:10 | WARNING  | SentinelAI | [ShellExecutor] Timeout: comando supero 60s: nmap -sV -sC -O -T4 --open 192.168.56.1
+2026-06-03 18:50:12 | WARNING  | SentinelAI | [ShellExecutor] Timeout: comando supero 60s: nmap -sV -sC -O -T4 --open 192.168.146.1
+2026-06-03 18:52:34 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:52:34 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:52:34 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:52:34 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:52:34 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:52:34 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:52:38 | WARNING  | SentinelAI | [Config] WAZUH_HOST no configurado - integracion Wazuh deshabilitada.
+2026-06-03 18:52:38 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:52:38 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:52:38 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:52:38 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:52:38 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:52:38 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:52:38 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:52:38 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:52:38 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:52:38 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:52:39 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:52:39 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:52:39 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:52:39 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:52:39 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:52:39 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:52:39 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:53:02 | INFO     | SentinelAI | [Server] /chat -> que alertas hay ahora mismo
+2026-06-03 18:53:05 | ERROR    | SentinelAI | [WazuhAgent] API error: Autenticación Wazuh fallida: Invalid URL '/security/user/authenticate': No scheme supplied. Perhaps you meant https:///security/user/authenticate?
+2026-06-03 18:53:55 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: bash
+2026-06-03 18:53:55 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: read_file
+2026-06-03 18:53:55 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: write_file
+2026-06-03 18:53:55 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: str_replace
+2026-06-03 18:53:55 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: search_code
+2026-06-03 18:53:55 | DEBUG    | SentinelAI | [ToolRegistry] Registrada: list_directory
+2026-06-03 18:53:56 | WARNING  | SentinelAI | [Config] OPENAI_API_KEY no configurado - OpenAI deshabilitado. Obten uno en: https://platform.openai.com/api-keys
+2026-06-03 18:53:57 | WARNING  | SentinelAI | [Config] HF_API_TOKEN no configurado - HuggingFace deshabilitado. Obten uno en: https://huggingface.co/settings/tokens
+2026-06-03 18:53:57 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:53:57 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:53:57 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:53:57 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:53:57 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:53:57 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:53:57 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:53:57 | INFO     | SentinelAI | [Server] LLM providers ready: ['openrouter/meta-llama/llama-3.3-70b-instruct', 'groq/llama-3.1-8b-instant', 'groq/llama-3.3-70b-versatile', 'groq/groq/compound']
+2026-06-03 18:53:57 | INFO     | SentinelAI | [Server] Wazuh monitor background task iniciado.
+2026-06-03 18:53:57 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:53:57 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:53:57 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:53:57 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:53:57 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:53:57 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:53:57 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:54:07 | WARNING  | SentinelAI | [WazuhMonitor] Wazuh no disponible; monitor deshabilitado.
+2026-06-03 18:54:07 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:54:07 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:54:07 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:54:07 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:54:07 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:54:07 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:54:07 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:54:11 | INFO     | SentinelAI | [Server] /chat -> que alertas hay ahora mismo
+2026-06-03 18:54:14 | ERROR    | SentinelAI | [WazuhAgent] API error: Autenticación Wazuh fallida: Invalid URL '/security/user/authenticate': No scheme supplied. Perhaps you meant https:///security/user/authenticate?
+2026-06-03 18:54:27 | INFO     | SentinelAI | [LLMClient] configured provider=openrouter/meta-llama/llama-3.3-70b-instruct url=https://openrouter.ai/api/v1/chat/completions
+2026-06-03 18:54:27 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/mistralai/Mistral-7B-Instruct-v0.3 HF_API_TOKEN not set or empty
+2026-06-03 18:54:27 | WARNING  | SentinelAI | [LLMClient] provider=huggingface/HuggingFaceH4/zephyr-7b-beta HF_API_TOKEN not set or empty
+2026-06-03 18:54:27 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.1-8b-instant url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:54:27 | INFO     | SentinelAI | [LLMClient] configured provider=groq/llama-3.3-70b-versatile url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:54:27 | INFO     | SentinelAI | [LLMClient] configured provider=groq/groq/compound url=https://api.groq.com/openai/v1/chat/completions
+2026-06-03 18:54:27 | WARNING  | SentinelAI | [LLMClient] provider=openai/gpt-4.1-mini OPENAI_API_KEY not set or empty
+2026-06-03 18:54:41 | INFO     | SentinelAI | [Server] /chat -> cuales son las buenas practicas para evitar un ataque de ciberseguridad

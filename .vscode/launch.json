@@ -1,0 +1,72 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Sentinel SIEM: Servidor Web + Chatbot",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Sentinel/run.py",
+            "python": "${workspaceFolder}/Sentinel/venv/bin/python",
+            "windows": {
+                "python": "${workspaceFolder}\\Sentinel\\venv\\Scripts\\python.exe"
+            },
+            "cwd": "${workspaceFolder}/Sentinel",
+            "envFile": "${workspaceFolder}/Sentinel/.env",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/Sentinel",
+                "UVICORN_RELOAD": "false"
+            },
+            "jinja": true,
+            "justMyCode": false,
+            "console": "integratedTerminal",
+            "preLaunchTask": "Sentinel SIEM: Setup Entorno",
+            "serverReadyAction": {
+                "pattern": "Application startup complete",
+                "uriFormat": "http://localhost:8000",
+                "action": "openExternally"
+            }
+        },
+        {
+            "name": "SentinelAI: CLI",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Sentinel/app/main.py",
+            "python": "${workspaceFolder}/Sentinel/venv/bin/python",
+            "windows": {
+                "python": "${workspaceFolder}\\Sentinel\\venv\\Scripts\\python.exe"
+            },
+            "cwd": "${workspaceFolder}/Sentinel",
+            "envFile": "${workspaceFolder}/Sentinel/.env",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/Sentinel"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "preLaunchTask": "Sentinel SIEM: Setup Entorno"
+        },
+        {
+            "name": "SentinelAI: Tests",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "python": "${workspaceFolder}/Sentinel/venv/bin/python",
+            "windows": {
+                "python": "${workspaceFolder}\\Sentinel\\venv\\Scripts\\python.exe"
+            },
+            "args": [
+                "tests/",
+                "-v",
+                "--tb=short",
+                "--no-header"
+            ],
+            "cwd": "${workspaceFolder}/Sentinel",
+            "envFile": "${workspaceFolder}/Sentinel/.env",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/Sentinel"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "preLaunchTask": "Sentinel SIEM: Setup Entorno"
+        }
+    ]
+}

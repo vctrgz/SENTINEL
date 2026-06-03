@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentinel AI | Cyber-Security Command</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/glass-cyberpunk.css">
+</head>
+<body>
+
+    <!-- Ambient Background Orbs (Glassmorphism needs vivid bg) -->
+    <div class="ambient-light orb-1"></div>
+    <div class="ambient-light orb-2"></div>
+    <div class="ambient-light orb-3"></div>
+    <div class="ambient-light orb-4"></div>
+    
+    <!-- FX Overlays -->
+    <div class="scanlines"></div>
+    <div class="vignette"></div>
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- LOGIN SCREEN -->
+    <div id="loginScreen" class="login-overlay">
+        <div class="login-container glass-panel">
+            <div class="glitch-wrapper">
+                <h1 class="glitch" data-text="SENTINEL">SENTINEL</h1>
+            </div>
+            <p class="text-cyan subtitle-login">SECURE ACCESS TERMINAL v2036.4</p>
+            <form id="loginForm" class="mt-4">
+                <div class="glass-input-group">
+                    <input type="text" id="username" class="glass-input" placeholder=" " required autocomplete="off">
+                    <label>IDENTITY</label>
+                    <i class="bi bi-fingerprint"></i>
+                </div>
+                <div class="glass-input-group">
+                    <input type="password" id="password" class="glass-input" placeholder=" " required>
+                    <label>PASSKEY</label>
+                    <i class="bi bi-shield-lock"></i>
+                </div>
+                <button type="submit" class="glass-btn w-100 mt-3">
+                    <span></span><span></span><span></span><span></span>
+                    INITIALIZE SESSION
+                </button>
+                <div id="loginError" class="text-danger mt-2 small d-none">ACCESS DENIED: INVALID CREDENTIALS</div>
+            </form>
+        </div>
+    </div>
+
+    <!-- MAIN APP -->
+    <div id="app" class="app-wrapper d-none">
+        <!-- Sidebar -->
+        <aside class="glass-sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-wrapper" onclick="router.navigate('dashboard')">
+                    <div class="logo-hex">
+                        <i class="bi bi-hexagon-fill"></i>
+                        <span class="logo-inner">S</span>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-title">SENTINEL</span>
+                        <span class="logo-version">AI CORE</span>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-link active" data-page="dashboard" onclick="router.navigate('dashboard')">
+                    <i class="bi bi-grid-3x3-gap-fill"></i>
+                    <span data-i18n="dashboard">Dashboard</span>
+                </a>
+                <a href="#" class="nav-link" data-page="alerts" onclick="router.navigate('alerts')">
+                    <i class="bi bi-exclamation-triangle-fill"></i>
+                    <span data-i18n="alerts">Alertas</span>
+                    <span class="live-badge" id="alertBadge">0</span>
+                </a>
+                <a href="#" class="nav-link" data-page="agents" onclick="router.navigate('agents')">
+                    <i class="bi bi-pc-display-horizontal"></i>
+                    <span data-i18n="agents">Agentes</span>
+                </a>
+                <a href="#" class="nav-link" data-page="events" onclick="router.navigate('events')">
+                    <i class="bi bi-journal-code"></i>
+                    <span data-i18n="events">Eventos</span>
+                </a>
+                <a href="#" class="nav-link" data-page="rules" onclick="router.navigate('rules')">
+                    <i class="bi bi-filetype-xml"></i>
+                    <span data-i18n="rules">Reglas XML</span>
+                </a>
+                <a href="#" class="nav-link" data-page="sentinel" onclick="router.navigate('sentinel')">
+                    <i class="bi bi-cpu"></i>
+                    <span>Sentinel AI</span>
+                    <span class="ai-pulse"></span>
+                </a>
+                <a href="#" class="nav-link" data-page="settings" onclick="router.navigate('settings')">
+                    <i class="bi bi-sliders"></i>
+                    <span data-i18n="settings">Ajustes</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="user-card glass-card-sm">
+                    <div class="user-avatar">
+                        <i class="bi bi-person-badge"></i>
+                    </div>
+                    <div class="user-info">
+                        <span class="user-name" id="sidebarUsername">Admin</span>
+                        <span class="user-role badge-role" id="sidebarRole">ADMINISTRATOR</span>
+                    </div>
+                </div>
+                <button class="logout-btn glass-btn-danger" onclick="auth.logout()">
+                    <i class="bi bi-power"></i>
+                    <span data-i18n="logout">Cerrar Sesión</span>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="glass-header">
+                <div class="header-left">
+                    <button class="menu-toggle" id="menuToggle"><i class="bi bi-list"></i></button>
+                    <div class="welcome-text">
+                        <span class="welcome-label" data-i18n="welcome">BIENVENIDO AL SISTEMA</span>
+                        <h2 class="welcome-user" id="headerWelcome">ADMINISTRATOR</h2>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="search-box glass-input-wrapper">
+                        <i class="bi bi-search"></i>
+                        <input type="text" id="globalSearch" placeholder="Buscar en todo el sistema..." data-i18n-placeholder="searchPlaceholder">
+                        <button class="filter-toggle" onclick="ui.toggleFilters()"><i class="bi bi-funnel-fill"></i></button>
+                    </div>
+                    <div class="header-actions">
+                        <button class="icon-btn bell-btn glass-icon-btn" onclick="ui.toggleNotifications()">
+                            <i class="bi bi-bell-fill"></i>
+                            <span class="notification-dot" id="notifDot"></span>
+                        </button>
+                        <div class="notifications-panel glass-panel d-none" id="notifPanel">
+                            <div class="notif-header">
+                                <span>LIVE ALERTS</span>
+                                <button class="text-cyan small border-0 bg-transparent" onclick="ui.clearNotifications()">CLEAR</button>
+                            </div>
+                            <div class="notif-list" id="notifList"></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Content Pages -->
+            <div class="content-area">
+
+                <!-- DASHBOARD -->
+                <section id="page-dashboard" class="page active">
+                    <div class="row g-4">
+                        <div class="col-md-3">
+                            <div class="glass-card stat-card">
+                                <div class="stat-icon text-cyan"><i class="bi bi-pc-display"></i></div>
+                                <div class="stat-value" id="statAgents">0</div>
+                                <div class="stat-label">AGENTES ACTIVOS</div>
+                                <div class="stat-bar glass-bar"><div style="width:85%"></div></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="glass-card stat-card">
+                                <div class="stat-icon text-warning"><i class="bi bi-exclamation-diamond"></i></div>
+                                <div class="stat-value text-warning" id="statAlerts">0</div>
+                                <div class="stat-label">ALERTAS CRÍTICAS</div>
+                                <div class="stat-bar glass-bar warning"><div style="width:42%"></div></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="glass-card stat-card">
+                                <div class="stat-icon text-danger"><i class="bi bi-bug"></i></div>
+                                <div class="stat-value text-danger" id="statThreats">12</div>
+                                <div class="stat-label">AMENAZAS BLOQUEADAS</div>
+                                <div class="stat-bar glass-bar danger"><div style="width:12%"></div></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="glass-card stat-card">
+                                <div class="stat-icon text-success"><i class="bi bi-shield-check"></i></div>
+                                <div class="stat-value text-success">99.9%</div>
+                                <div class="stat-label">UPTIME CLUSTER</div>
+                                <div class="stat-bar glass-bar success"><div style="width:99%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-4 mt-2">
+                        <div class="col-lg-8">
+                            <div class="glass-card h-100">
+                                <div class="card-header-glass">
+                                    <i class="bi bi-activity"></i> TRÁFICO EN TIEMPO REAL
+                                    <span class="live-indicator"><span class="pulse"></span> LIVE</span>
+                                </div>
+                                <div class="card-body-glass">
+                                    <canvas id="trafficChart" height="120"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="glass-card h-100">
+                                <div class="card-header-glass">
+                                    <i class="bi bi-pie-chart"></i> DISTRIBUCIÓN OS
+                                </div>
+                                <div class="card-body-glass text-center">
+                                    <div class="os-donut glass-donut" id="osDonut">
+                                        <div class="donut-center glass-donut-center">
+                                            <span class="donut-value">24</span>
+                                            <span class="donut-label">AGENTES</span>
+                                        </div>
+                                    </div>
+                                    <div class="os-legend mt-3" id="osLegend"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ALERTS -->
+                <section id="page-alerts" class="page">
+                    <div class="glass-card">
+                        <div class="card-header-glass d-flex justify-content-between align-items-center">
+                            <span><i class="bi bi-exclamation-triangle"></i> CENTRO DE ALERTAS</span>
+                            <div class="header-filters">
+                                <select class="glass-select-sm" id="alertLevelFilter" onchange="alerts.render()">
+                                    <option value="">TODOS LOS NIVELES</option>
+                                    <option value="3">CRÍTICO</option>
+                                    <option value="2">ALTO</option>
+                                    <option value="1">MEDIO</option>
+                                    <option value="0">BAJO</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="glass-table">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>AGENTE</th>
+                                        <th>DESCRIPCIÓN</th>
+                                        <th>NIVEL</th>
+                                        <th>FECHA</th>
+                                        <th>ESTADO</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="alertsTableBody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- AGENTS -->
+                <section id="page-agents" class="page">
+                    <div class="glass-card">
+                        <div class="card-header-glass">
+                            <span><i class="bi bi-pc-display-horizontal"></i> GESTIÓN DE AGENTES</span>
+                        </div>
+                        <div class="card-body-glass">
+                            <div class="row g-3 mb-4 agent-filters">
+                                <div class="col-md-3">
+                                    <div class="glass-input-group">
+                                        <input type="text" id="agentSearch" class="glass-input" placeholder=" " oninput="agents.render()">
+                                        <label>Buscar agente...</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <select class="glass-select" id="agentOsFilter" onchange="agents.render()">
+                                        <option value="">Sistema Operativo</option>
+                                        <option value="Windows">Windows</option>
+                                        <option value="Linux">Linux</option>
+                                        <option value="macOS">macOS</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2">
+                                    <select class="glass-select" id="agentStatusFilter" onchange="agents.render()">
+                                        <option value="">Estado</option>
+                                        <option value="active">Conectado</option>
+                                        <option value="disconnected">Desconectado</option>
+                                        <option value="pending">Pendiente</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2">
+                                    <select class="glass-select" id="agentVersionFilter" onchange="agents.render()">
+                                        <option value="">Versión</option>
+                                        <option value="4.7.0">4.7.0</option>
+                                        <option value="4.6.2">4.6.2</option>
+                                        <option value="4.5.4">4.5.4</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="date" class="glass-input" id="agentDateFilter" onchange="agents.render()">
+                                </div>
+                            </div>
+                            <div class="row g-3" id="agentsGrid"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- EVENTS -->
+                <section id="page-events" class="page">
+                    <div class="glass-card">
+                        <div class="card-header-glass"><i class="bi bi-journal-code"></i> LOG DE EVENTOS</div>
+                        <div class="terminal-window glass-terminal" id="eventTerminal">
+                            <div class="terminal-header">
+                                <span class="term-btn red"></span>
+                                <span class="term-btn yellow"></span>
+                                <span class="term-btn green"></span>
+                                <span class="term-title">root@sentinel:/var/ossec/logs</span>
+                            </div>
+                            <div class="terminal-body" id="terminalBody"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- RULES XML -->
+                <section id="page-rules" class="page">
+                    <div class="glass-card">
+                        <div class="card-header-glass d-flex justify-content-between">
+                            <span><i class="bi bi-filetype-xml"></i> EDITOR DE REGLAS WAZUH</span>
+                            <div>
+                                <button class="glass-btn-sm me-2" onclick="rules.loadFromAPI()"><i class="bi bi-cloud-download"></i> CARGAR DESDE API</button>
+                                <button class="glass-btn-sm btn-cyan" onclick="rules.save()"><i class="bi bi-save"></i> GUARDAR</button>
+                            </div>
+                        </div>
+                        <div class="card-body-glass p-0">
+                            <div class="xml-editor-container glass-editor">
+                                <div class="line-numbers" id="lineNumbers">1</div>
+                                <textarea id="xmlEditor" class="xml-editor" spellcheck="false" oninput="rules.updateLines()" onscroll="rules.syncScroll()"></textarea>
+                            </div>
+                        </div>
+                        <div class="card-footer-glass">
+                            <span class="small text-muted" id="xmlStatus">Ready</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SENTINEL AI -->
+                <section id="page-sentinel" class="page">
+                    <div class="glass-card sentinel-card">
+                        <div class="sentinel-header">
+                            <div class="sentinel-avatar">
+                                <i class="bi bi-robot"></i>
+                                <div class="avatar-ring glass-ring"></div>
+                            </div>
+                            <div>
+                                <h3 class="mb-0 glitch-small" data-text="SENTINEL AI">SENTINEL AI</h3>
+                                <span class="text-cyan small">NEURAL SECURITY ASSISTANT // ONLINE</span>
+                            </div>
+                        </div>
+                        <div class="sentinel-chat" id="sentinelChat">
+                            <div class="chat-message ai-message">
+                                <div class="message-bubble glass-bubble-ai">
+                                    Sistema Sentinel AI inicializado. Estoy monitorizando tu infraestructura en tiempo real. ¿Qué análisis necesitas ejecutar?
+                                </div>
+                                <span class="message-time">NOW</span>
+                            </div>
+                        </div>
+                        <div class="sentinel-input glass-input-area">
+                            <div class="glass-input-group flex-grow-1 mb-0">
+                                <input type="text" id="sentinelInput" class="glass-input" placeholder=" " onkeypress="if(event.key==='Enter') sentinel.send()">
+                                <label>Comando o pregunta...</label>
+                            </div>
+                            <button class="glass-btn btn-cyan" onclick="sentinel.send()">
+                                <i class="bi bi-send-fill"></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SETTINGS -->
+                <section id="page-settings" class="page">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="glass-card">
+                                <div class="card-header-glass"><i class="bi bi-palette"></i> APARIENCIA</div>
+                                <div class="card-body-glass">
+                                    <div class="setting-row">
+                                        <span>Tema Visual</span>
+                                        <button class="theme-toggle glass-toggle" id="themeToggle" onclick="settings.toggleTheme()">
+                                            <i class="bi bi-moon-stars-fill"></i>
+                                        </button>
+                                    </div>
+                                    <div class="setting-row">
+                                        <span>Idioma del Sistema</span>
+                                        <select class="glass-select w-auto" id="langSelect" onchange="settings.changeLang(this.value)">
+                                            <option value="es">Español</option>
+                                            <option value="ca">Català</option>
+                                            <option value="en">English</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="glass-card mt-4">
+                                <div class="card-header-glass"><i class="bi bi-key"></i> SEGURIDAD</div>
+                                <div class="card-body-glass">
+                                    <div class="glass-input-group mb-3">
+                                        <input type="password" id="currentPass" class="glass-input" placeholder=" ">
+                                        <label>Contraseña Actual</label>
+                                    </div>
+                                    <div class="glass-input-group mb-3">
+                                        <input type="password" id="newPass" class="glass-input" placeholder=" ">
+                                        <label>Nueva Contraseña</label>
+                                    </div>
+                                    <button class="glass-btn btn-cyan" onclick="settings.changePassword()">ACTUALIZAR PASSKEY</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 admin-only" id="userManagementPanel">
+                            <div class="glass-card border-glow-cyan">
+                                <div class="card-header-glass text-cyan">
+                                    <i class="bi bi-people-fill"></i> GESTIÓN DE USUARIOS
+                                    <span class="badge bg-cyan text-dark ms-2">ADMIN ONLY</span>
+                                </div>
+                                <div class="card-body-glass">
+                                    <div class="row g-2 mb-3">
+                                        <div class="col-4">
+                                            <input type="text" id="newUserName" class="glass-input" placeholder="Usuario">
+                                        </div>
+                                        <div class="col-4">
+                                            <input type="password" id="newUserPass" class="glass-input" placeholder="Contraseña">
+                                        </div>
+                                        <div class="col-3">
+                                            <select class="glass-select" id="newUserRole">
+                                                <option value="technician">Técnico</option>
+                                                <option value="admin">Administrador</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-1">
+                                            <button class="glass-btn btn-cyan w-100 h-100 p-0" onclick="settings.createUser()"><i class="bi bi-plus-lg"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive">
+                                        <table class="glass-table small">
+                                            <thead><tr><th>USUARIO</th><th>ROL</th><th></th></tr></thead>
+                                            <tbody id="usersTable"></tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Agent Detail Modal -->
+    <div class="modal fade" id="agentModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content glass-modal">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title text-cyan"><i class="bi bi-pc-display"></i> <span id="modalAgentName">Agent</span></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="modalAgentBody"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/cyber-animations.js"></script>
+    <script src="js/wazuh-api.js"></script>
+    <script src="js/sentinel-ai.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
